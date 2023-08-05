@@ -1,0 +1,836 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.main-container{
+    width: 100%;
+    height: auto;
+}
+nav{
+    width: 100%;
+    height: 90px;
+    background-color:rgb(131, 131, 204);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+.logo{
+    width: 200px;
+    height: 90px;
+    /* border: 1px solid black; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.logo img{
+    width: 100px;
+}
+.home{
+    width: 70%;
+    height: 90px;
+    /* border: 1px solid black; */
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.menu-bar{
+    display: none;
+}
+.home li{
+    list-style: none;
+}
+.home li a{
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.home li a:hover{
+    color: yellow;
+}
+.backgraund{
+    width: 100%;
+    height: 600px;
+    /* border: 1px solid black; */
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.backgraund img{
+    width: 100%;
+    height: 600px;
+}
+.heading{
+    width: 100%;
+    height: 130px;
+    /* border: 1px solid black; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.heading h1{
+    font-size: 60px;
+    font-weight: 100;
+    color:rgb(20, 20, 37);
+    
+}
+.images{
+    width: 100%;
+    height:500px;
+    /* border: 1px solid black; */
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding-inline: 50px;
+
+}
+.box-1{
+    width: 100%;
+    height: 400px;
+    /* border: 1px solid black; */
+    background-image: url(./img/Himachal-Pradesh-1.webp);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.the{
+    width: 300px;
+    height: 300px;
+    /* border: 1px solid black; */
+     display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column; 
+    color: white;
+}
+.the h1{
+    font-size: 25px;
+    padding-bottom: 10px;
+   
+}
+
+.the a{
+    font-size: 18px;
+    font-weight: 600;
+    color: wheat;
+    text-decoration: none;
+    padding-top: 10px;
+}
+.box-2{
+    width: 100%;
+    height: 400px;
+    /* border: 1px solid black; */
+    background-image: url(./img/Himachal-feature-image-e1638421748290.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+}
+.class{
+    width: 300px;
+    height: 300px;
+    /* border: 1px solid black; */
+     display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column; 
+    color: white;
+
+}
+.class h1{
+    font-size:25px ;
+    padding-bottom: 10px;
+}
+.class a{
+    font-size: 18px;
+    font-weight: 600;
+    color: wheat;
+    text-decoration: none;
+    padding-top: 10px;
+}
+.box-3{
+    width: 100%;
+    height: 400px;
+    /* border: 1px solid black; */
+    background-image: url(./img/images\ \(1\).jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column; 
+    color: white;
+
+}
+.fairs{
+    width: 300px;
+    height: 300px;
+    /* border: 1px solid black; */
+     display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column; 
+    color: white;
+}
+.fairs h1{
+    font-size: 25px;
+    padding-bottom: 10px;
+}
+.fairs a{
+    font-size: 18px;
+    font-weight: 600;
+    color: wheat;
+    text-decoration: none;
+    padding-top: 10px;
+
+}
+
+.img-c{
+    width: 30%;
+    height: 400px;
+    display: flex ;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+.box-1:hover,
+.box-2:hover,
+.box-3:hover{
+    cursor: pointer;
+    transition: all ease-in-out 1.6s;
+    transform: scale(110%);
+}
+/* -----images-section */
+
+.imag-section{
+    width: 100%;
+    height: 500px;
+    /* border: 1px solid black; */
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding-inline: 50px;
+    /* margin-top: 20px; */
+}
+.boder{
+    width: 30%;
+    height: 400px;
+    display: flex ;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+
+}
+.brf-1:hover,
+.brf-2:hover,
+.brf-3:hover{
+    cursor: pointer;
+    transition: all ease-in-out 1.6s;
+    transform: scale(110%);
+
+}
+
+
+.brf-1{
+    width: 100%;
+    height: 400px;
+    /* border: 1px solid black; */
+    background-image: url(./img/IMG-20210508-WA0021.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column; 
+    color: white;
+
+}
+.add-1 {
+     width: 300px;
+    height: 300px;
+    /* border: 1px solid black; */
+     display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column; 
+    color: white;
+
+
+}
+.add-1 h1{
+    font-size: 25px;
+    padding-bottom: 10px;
+}
+.add-1 a{
+    font-size: 18px;
+    font-weight: 600;
+    color: wheat;
+    text-decoration: none;
+    padding-top: 10px;
+
+
+}
+.brf-2{
+    width: 100%;
+    height: 400px;
+    /* border: 1px solid black; */
+    background-image: url(./img/istockphoto-1284679139-170667a.webp);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column; 
+    color: white;
+
+
+}
+
+.brf-3{
+    width: 100%;
+    height: 400px;
+    /* border: 1px solid black; */
+    background-image: url(./img/Shakti-Peethas.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column; 
+    color: white;
+
+}
+/* -----section-state */
+.beautiful{
+    width: 100%;
+    height: 500px;
+    /* border: 1px solid black; */
+    display: flex;
+    padding-inline: 50px;
+}
+.left{
+    width: 50%;
+    height: 500px;
+    /* border: 1px solid black; */
+    background-color: rgb(77, 77, 100);
+    display: flex;
+    align-items:start;
+    justify-content: space-evenly;
+    flex-direction: column;
+    padding-left: 20px;
+    color: rgb(190, 187, 187);
+    
+}
+.left h1{
+    font-size: 60px;
+    font-weight: 100;
+    color: white;
+}
+.line{
+    width: 50%;
+    height: 3px;
+    background-color: green;
+
+}
+ 
+.left p{
+    font-size: 20px;
+}
+.right{
+     width: 50%;
+    height: 500px;
+    /* border: 1px solid black; */
+    background-image: url(./img/47807012-flock-of-sheep-in-the-mountains.webp);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+/* -----top-des */
+.DESTINATION{
+    width: 100%;
+    height: 100px;
+    /* border: 1px solid black; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-inline: 50px;
+}
+.DESTINATION h1{
+    font-size: 50px;
+    font-weight: 200;
+    color: rgb(17, 17, 51);
+}
+/* ---manali-section */
+.manali{
+    width: 100%;
+    height: 600px;
+    /* border: 1px solid black; */
+    display: flex;
+    padding-inline: 50px;
+
+}
+.left-mnali{
+    width: 50%;
+    height: 500px;
+    /* border: 1px solid black; */
+    display: flex;
+}
+.shimla{
+    width: 50%;
+    height:500px;
+    /* border: 1px solid black; */
+}
+.fleg{
+    width:100%;
+    height: 250px;
+    /* border: 1px solid black; */
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+
+}
+.read{
+    width: 150px;
+    height: 150px;
+     /* border: 1px solid black; */
+     border-radius: 50%;
+     background-image: url(./img/download.jpg);
+}
+
+.more{
+    width:100%;
+    height: 250px;
+    /* border: 1px solid black; */
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+
+}
+.darm{
+    width: 150px;
+    height: 150px;
+     /* border: 1px solid black; */
+     border-radius: 50%;
+     background-image: url(./img/Himachal_Pradesh_stamp_duty.png);
+     background-position: center;
+     background-repeat: no-repeat;
+     background-size: cover;
+}
+.shimla-2{
+    width: 50%;
+    height:500px;
+    /* background-color: bisque; */
+
+}
+.chamba{
+    width:100%;
+    height: 250px;
+    /* border: 1px solid black; */
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.ma{
+    width: 150px;
+    height: 150px;
+     /* border: 1px solid black; */
+     border-radius: 50%;
+     background-image: url(./img/Hidimba-Devi-temple-Manali-min.jpg);
+     background-position: center;
+     background-repeat: no-repeat;
+     background-size: cover;
+
+}
+.msla{
+    width:100%;
+    height: 250px;
+    /* border: 1px solid black; */
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.do{
+    width: 150px;
+    height: 150px;
+     /* border: 1px solid black; */
+     border-radius: 50%;
+     background-image: url(./img/487035497Shimla_Main.jpg);
+     background-position: center;
+     background-repeat: no-repeat;
+     background-size: cover;
+}
+.right-mnali{
+     width: 50%;
+    height: 500px;
+    /* border: 1px solid black; */
+     display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: start; 
+    padding-left: 20px;
+    color: rgb(58, 55, 55);
+
+}
+.right-mnali p{
+    font-size: 20px;
+}
+/* ----- footer-img------- */
+.benner{
+    width: 100%;
+    height: 500px;
+    /* border: 1px solid black; */
+    background-image: url(./img/Himalayas-mountain-range.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    
+}
+.facebook{
+    width: 100%;
+    height: 100px;
+    background-image: url(./img/images\ \(3\).jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.like{
+    width: 100%;
+    height: 100px;
+    /* border: 1px solid black; */
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.like h2{
+    font-size: 23px;
+    color: white;
+}
+/* ------link-footer */
+.footer-link{
+    width: 100%;
+    height: 500px;
+    /* border: 1px solid black; */
+    display: flex;
+    align-items: start;
+    justify-content: space-evenly;
+    padding-top: 20px;
+}
+.link-1{
+    list-style: none;
+
+}
+.link-1 li {
+    margin: 10px;
+   
+}
+.link-1 h3{
+    font-size: 15px;
+}
+/* ---futer */
+.futer{
+    width: 100%;
+    height: 400px;
+    /* border: 1px solid black; */
+    display: flex;
+
+}
+.img-1{
+    width: 25%;
+    height: 400px;
+    /* border: 1px solid black; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.text{
+    width: 50%;
+    height: 400px;
+    /* border: 1px solid black; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding-inline: 50px;
+}
+
+.text p{
+    padding-bottom: 10px;
+    
+}
+.text h5{
+    padding-bottom: 10px;
+}
+.last-img{
+    width: 25%;
+    height: 400px;
+    /* border: 1px solid black; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.hr {
+    width: 20%;
+    height: 2px;
+    background-color: red;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ /* -----responsive---css---- */
+ @media ((max-width: 768px)) {
+
+    .main-container{
+        width: 100%;
+        height: auto;
+
+    }
+    nav{
+        width: 100%;
+        height: auto;
+    }
+    .logo{
+        width:100px;
+        height: auto;
+        align-items: start;
+    }
+    .logo img{
+        width: 60px;
+    }
+    .home{
+        display: none;
+    }
+    .menu-bar{
+        display: inline;
+    }
+    .menu-bar i{
+        font-size: 20px;
+        padding-right: 40px;
+    }
+    .backgraund{
+        width: 100%;
+        height: auto;
+    }
+    .backgraund img{
+        width: 100%;
+        height: auto;
+    }
+    .heading{
+        width: 100%;
+        height: auto;
+    }
+    .heading h1{
+        font-size: 28px;
+    }
+    .images{
+        width: 100%;
+        height: auto;
+        flex-direction: column;
+    }
+    .img-c{
+        width: 100%;
+        /* height: auto; */
+    }
+    .box-1{
+        width: 100%;
+        height: auto;
+    }
+    .the h1{
+        font-size:20px ;
+    }
+    .the a{
+        font-size: 15px;
+    }
+    .box-2{
+        width: 100%;
+        height: auto;
+    }
+    .class h1{
+        font-size:20px ;
+    }
+    .class a{
+        font-size: 15px;
+    }
+    .box-3{
+        width: 100%;
+        height: auto;
+    }
+    .fairs h1{
+        font-size: 20px;
+    }
+    .fairs a{
+        font-size: 15px;
+    }
+    /* --- */
+    .imag-section{
+        width: 100%;
+        height: auto;
+        flex-direction: column;
+       
+    }
+    .boder{
+        width: 100%;
+    }
+    .brf-1{
+        width: 100%;
+        height: auto;
+        
+    
+    }
+    .brf-2{
+        width: 100%;
+        height: auto;
+         
+    }
+    .brf-3{
+        width: 100%;
+        height: auto;
+    }
+    .beautiful{
+        width: 100%;
+        height: auto;
+        flex-direction: column;
+    }
+    .left{
+        width: 100%;
+        height: auto;
+    }
+    .left h1{
+        font-size: 35px;
+    }
+    .left p{
+        font-size: 15px;
+    }
+    .right{
+        width: 100%;
+        /* height: auto; */
+    }
+    .DESTINATION{
+        width: 100%;
+        height: auto;
+    }
+    .DESTINATION h1{
+        font-size: 28px;
+    }
+    .manali{
+        width: 100%;
+        height: auto;
+        flex-direction: column;
+    }
+    .left-mnali{
+        width: 100%;
+        height: auto;
+        flex-direction: column;
+    }
+    .shimla{
+        width: 100%;
+        height: auto;
+    }
+    .shimla-2{
+        width: 100%;
+        height: auto;
+
+
+    }
+    .right-mnali{
+        width: 100%;
+        height: auto;  
+    }
+    .right-mnali p{
+        font-size:15px ;
+    }
+    .facebook{
+        width: 100%;
+        height: auto;
+    }
+    .like{
+        width: 100%;
+        height: auto;
+    }
+    .like h2{
+        font-size: 18px;
+    }
+    .footer-link{
+        width: 100%;
+        height: auto;
+        flex-direction: column;
+    }
+    .futer{
+        width: 100%;
+        height: auto;
+        flex-direction: column;
+    }
+    .img-1{
+        width: 100%;
+        height: auto;
+        /* flex-direction: column; */
+
+    }
+    .text{
+        width: 100%;
+        height: auto;
+    }
+    .last-img{
+        width: 100%;
+        height: auto;
+    }
+    
+
+    
+ }
